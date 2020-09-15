@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+form {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
+  margin: 30px auto auto auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  background-color: rgb(60, 75, 77);
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  color: rgb(89, 182, 194);
+}
+
+input {
+  display: block;
+  width: 100px;
+  align-self: center;
+  height: 35px;
+  color: rgb(17, 76, 84);
+}
+
+button {
+  display: block;
+  align-self: center;
+  width: 35px;
+}
