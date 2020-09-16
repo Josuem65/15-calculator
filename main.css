@@ -4,7 +4,7 @@
   font-family: sans-serif;
 }
 
-form {
+.calculator {
   border: 1px solid black;
   border-radius: 20px;
   width: 500px;
@@ -24,6 +24,14 @@ form {
 }
 
 input {
+  display: block;
+  width: 100px;
+  align-self: center;
+  height: 35px;
+  color: rgb(17, 76, 84);
+}
+
+textarea {
   display: block;
   width: 100px;
   align-self: center;

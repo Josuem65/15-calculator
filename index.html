@@ -7,18 +7,16 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div>
-      <form>
-        <input id="num_one" type="text" placeholder="*number" />
-        <input id="num_two" type="text" placeholder="*number" />
-        <div class="buttons">
-          <button type="submit" id="add" onclick="add();" value="add">+</button>
-          <button type="submit" id="subtract" value="subtract">-</button>
-          <button type="submit" id="multiply" vlaue="multiply">x</button>
-          <button type="submit" id="divide" value="divide">/</button>
-        </div>
-        <input id="answer" type="text" placeholder="*answer" />
-      </form>
+    <div class="calculator">
+      <input id="num_one" type="number" placeholder="*number" />
+      <input id="num_two" type="number" placeholder="*number" />
+      <div class="buttons">
+        <button type="submit" id="add" value="add">+</button>
+        <button type="submit" id="subtract" value="subtract">-</button>
+        <button type="submit" id="multiply" vlaue="multiply">x</button>
+        <button type="submit" id="divide" value="divide">/</button>
+      </div>
+      <textarea id="answer" type="number" placeholder="*answer"></textarea>
     </div>
     <script src="main.js"></script>
   </body>

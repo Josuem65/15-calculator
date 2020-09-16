@@ -1,30 +1,31 @@
-const add = function (numOne, numTwo) {
-  const number1 = document.getElementById("num_one").textObject.value
-  const number2 = document.getElementById("num_two").textObject.value
-  const answer = number1 + number2
-  document.querySelector("#answer").innerHTML = answer
+function add() {
+  let number1 = document.getElementById("num_one").value
+  let number2 = document.getElementById("num_two").value
+  const answer = number1 * 1 + number2 * 1
+  document.getElementById("answer").innerHTML = answer
 }
-// document.querySelector('#answer').innerHTML = answer;
-// const subtract = function (num1, num2) {
-//   return num1 - num2
-// }
-
-// const multiply = function (number1, number2) {
-//   return number1 * number2
-// }
-
-// const divide = function (numero1, numero2) {
-//   return numero1 / numero2
-// }
-// const numberOne = document.getElementById("num_one").textObject.value
-// const numberTwo = document.getElementById("num_two").textObject.value
-
-// function getInputValue() {
-//   // Selecting the input element and get its value
-//   var inputVal = document.getElementById("num_one", "num_two").value
-//   console.log(inputVal)
-// }
-// #num_one, #num_two, #answer
-// #add, #subtract, #multiply, #divide
-// console.log(inputVal)
-// console.log(document.querySelector("#add").addEventListener("click", add)
+document.getElementById("add").addEventListener("click", add)
+// S U B T R A C T
+function subtract() {
+  let number1 = document.getElementById("num_one").value
+  let number2 = document.getElementById("num_two").value
+  const answer = number1 * 1 - number2 * 1
+  document.getElementById("answer").innerHTML = answer
+}
+document.getElementById("subtract").addEventListener("click", subtract)
+// M U L T I P L Y
+function multiply() {
+  let number1 = document.getElementById("num_one").value
+  let number2 = document.getElementById("num_two").value
+  const answer = number1 * 1 * (number2 * 1)
+  document.getElementById("answer").innerHTML = answer
+}
+document.getElementById("multiply").addEventListener("click", multiply)
+// D I V I D E
+function divide() {
+  let number1 = document.getElementById("num_one").value
+  let number2 = document.getElementById("num_two").value
+  const answer = (number1 * 1) / (number2 * 1)
+  document.getElementById("answer").innerHTML = answer
+}
+document.getElementById("divide").addEventListener("click", divide)
